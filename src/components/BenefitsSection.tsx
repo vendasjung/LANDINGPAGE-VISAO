@@ -11,7 +11,7 @@ const benefits = [
 
 const BenefitsSection = () => {
   const whatsappNumber = "5549988044635";
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de saber mais sobre os serviços da Ótica Visão.`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Vim pelo site e gostaria de saber mais sobre os serviços da Ótica Visão.`;
 
   return (
     <section className="section-padding bg-secondary">
