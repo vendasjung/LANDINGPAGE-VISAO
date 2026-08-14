@@ -36,7 +36,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 leading-relaxed">
-            Na Ótica Santa Vista, cuidamos da sua visão com carinho e profissionalismo. 
+            Na Ótica Visão, cuidamos da sua visão com carinho e profissionalismo. 
             Peça seu orçamento agora mesmo pelo WhatsApp e descubra armações exclusivas.
           </p>
 

@@ -11,7 +11,7 @@ const benefits = [
 
 const BenefitsSection = () => {
   const whatsappNumber = "5500000000000"; // Substitua pelo número real
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de saber mais sobre os serviços da Ótica Santa Vista.`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de saber mais sobre os serviços da Ótica Visão.`;
 
   return (
     <section className="section-padding bg-secondary">
@@ -26,7 +26,7 @@ const BenefitsSection = () => {
               Sua satisfação é nossa <span className="text-gradient">prioridade</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Na Ótica Santa Vista, combinamos tradição e modernidade para oferecer 
+              Na Ótica Visão, combinamos tradição e modernidade para oferecer 
               a melhor experiência em cuidados com a visão.
             </p>
 

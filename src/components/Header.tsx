@@ -11,11 +11,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-lg">SV</span>
+              <span className="text-primary-foreground font-serif font-bold text-lg">VV</span>
             </div>
             <div className="hidden sm:block">
               <h1 className="font-serif font-semibold text-foreground text-lg leading-tight">
-                Ótica Santa Vista
+                Ótica Visão
               </h1>
               <p className="text-xs text-muted-foreground">Sua visão, nossa missão</p>
             </div>
