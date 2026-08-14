@@ -1,4 +1,5 @@
 import { Phone, MapPin } from "lucide-react";
+import logoVisao from "@/assets/logo-otica-visao.png.asset.json";
 
 const Header = () => {
   const whatsappNumber = "5500000000000"; // Substitua pelo número real
@@ -9,16 +10,15 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-lg">VV</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="font-serif font-semibold text-foreground text-lg leading-tight">
-                Ótica Visão
-              </h1>
-              <p className="text-xs text-muted-foreground">Sua visão, nossa missão</p>
-            </div>
+          <div className="flex items-center gap-3">
+            <img
+              src={logoVisao.url}
+              alt="Ótica Visão - óculos de grau e sol"
+              className="h-7 md:h-9 w-auto"
+            />
+            <p className="hidden sm:block text-xs text-muted-foreground border-l border-border pl-3">
+              Sua visão, nossa missão
+            </p>
           </div>
 
           {/* Contact Info - Desktop */}
