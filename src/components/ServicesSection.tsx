@@ -1,4 +1,4 @@
-import { Glasses, Sun, Eye, Sparkles } from "lucide-react";
+import { Glasses, Sun, Sparkles, Watch, Gem } from "lucide-react";
 
 const services = [
   {
@@ -14,16 +14,16 @@ const services = [
       "Proteção UV garantida com estilo. Modelos exclusivos para todos os gostos e ocasiões.",
   },
   {
-    icon: Eye,
-    title: "Lentes de Contato",
+    icon: Watch,
+    title: "Relógios",
     description:
-      "Opções de lentes de contato para grau e estética, com orientação profissional completa.",
+      "Modelos clássicos e modernos para todos os estilos, com qualidade e sofisticação no seu pulso.",
   },
   {
-    icon: Sparkles,
-    title: "Lentes Especiais",
+    icon: Gem,
+    title: "Alianças em Ouro",
     description:
-      "Lentes antirreflexo, fotossensíveis, multifocais e muito mais para seu conforto visual.",
+      "Alianças em ouro com design elegante e acabamento impecável para marcar momentos especiais.",
   },
 ];
 
