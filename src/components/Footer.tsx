@@ -27,15 +27,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="text-sm">Rua Exemplo, 123 - Centro, Cidade/UF</span>
+                <span className="text-sm">Shoppin Gemini - Rua João de Castro, 68 - Centro - Lages/SC</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="text-sm">(00) 00000-0000</span>
+                <span className="text-sm">(49) 98804-4635</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="text-sm">contato@oticavisao.com.br</span>
+                <span className="text-sm">oticavisaolages@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -45,14 +45,20 @@ const Footer = () => {
             <h4 className="font-semibold text-primary-foreground mb-4">Redes Sociais</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://instagram.com/oticavisaolages"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+                aria-label="Instagram da Ótica Visão"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://facebook.com/VisaoLages"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+                aria-label="Facebook da Ótica Visão"
               >
                 <Facebook className="w-5 h-5" />
               </a>
