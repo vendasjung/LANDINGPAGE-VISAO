@@ -1,8 +1,8 @@
 import { MessageCircle } from "lucide-react";
 
 const FloatingWhatsApp = () => {
-  const whatsappNumber = "5500000000000"; // Substitua pelo número real
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos.`;
+  const whatsappNumber = "5549988044635";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos da Ótica Visão.`;
 
   return (
     <a

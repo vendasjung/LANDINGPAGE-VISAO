@@ -2,8 +2,8 @@ import { MessageCircle, Star, Shield, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-glasses.jpg";
 
 const HeroSection = () => {
-  const whatsappNumber = "5500000000000"; // Substitua pelo número real
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos.`;
+  const whatsappNumber = "5549988044635";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos da Ótica Visão.`;
 
   return (
     <section className="relative min-h-screen flex items-center pt-20">
