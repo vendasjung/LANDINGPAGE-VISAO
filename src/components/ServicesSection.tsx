@@ -1,4 +1,4 @@
-import { Glasses, Sun, Sparkles, Watch, Ring } from "lucide-react";
+import { Glasses, Sun, Sparkles, Watch, Gem } from "lucide-react";
 
 const services = [
   {
@@ -20,7 +20,7 @@ const services = [
       "Modelos clássicos e modernos para todos os estilos, com qualidade e sofisticação no seu pulso.",
   },
   {
-    icon: Ring,
+    icon: Gem,
     title: "Alianças em Ouro",
     description:
       "Alianças em ouro com design elegante e acabamento impecável para marcar momentos especiais.",
