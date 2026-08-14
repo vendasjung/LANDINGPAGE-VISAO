@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
+import logoVisaoBranco from "@/assets/logo-otica-visao-branco.png.asset.json";
 
 const Footer = () => {
   return (
@@ -8,14 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary-foreground flex items-center justify-center">
-                <span className="text-foreground font-serif font-bold text-lg">VV</span>
-              </div>
-              <div>
-                <h3 className="font-serif font-semibold text-primary-foreground text-lg">
-                  Ótica Visão
-                </h3>
-              </div>
+              <img
+                src={logoVisaoBranco.url}
+                alt="Ótica Visão"
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-primary-foreground/60 leading-relaxed">
               Há mais de 10 anos cuidando da sua visão com carinho, 
