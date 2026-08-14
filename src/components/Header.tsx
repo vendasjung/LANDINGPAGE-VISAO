@@ -2,8 +2,8 @@ import { Phone, MapPin } from "lucide-react";
 import logoVisao from "@/assets/logo-otica-visao.png.asset.json";
 
 const Header = () => {
-  const whatsappNumber = "5500000000000"; // Substitua pelo número real
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos.`;
+  const whatsappNumber = "5549988044635";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos da Ótica Visão.`;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-card/95 backdrop-blur-md border-b border-border">
@@ -25,7 +25,7 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-6">
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-4 h-4" />
-              <span className="text-sm">Sua cidade, Estado</span>
+              <span className="text-sm">Shoppin Gemini - Lages/SC</span>
             </div>
             <a
               href={whatsappLink}

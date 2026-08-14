@@ -10,7 +10,7 @@ const benefits = [
 ];
 
 const BenefitsSection = () => {
-  const whatsappNumber = "5500000000000"; // Substitua pelo número real
+  const whatsappNumber = "5549988044635";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de saber mais sobre os serviços da Ótica Visão.`;
 
   return (

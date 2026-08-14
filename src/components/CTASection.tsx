@@ -1,8 +1,8 @@
 import { MessageCircle, Phone, Clock } from "lucide-react";
 
 const CTASection = () => {
-  const whatsappNumber = "5500000000000"; // Substitua pelo número real
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos.`;
+  const whatsappNumber = "5549988044635";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos da Ótica Visão.`;
 
   return (
     <section className="section-padding relative overflow-hidden">
@@ -38,12 +38,12 @@ const CTASection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground/70">
             <div className="flex items-center gap-2">
               <Phone className="w-5 h-5" />
-              <span>(00) 00000-0000</span>
+              <span>(49) 98804-4635</span>
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-primary-foreground/30" />
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
-              <span>Seg - Sáb: 8h às 18h</span>
+              <span>Seg a Sex: 09h às 12h e 13:30 às 18:30 | Sáb: 09h às 13h</span>
             </div>
           </div>
         </div>
