@@ -3,7 +3,7 @@ import logoVisao from "@/assets/logo-otica-visao.png.asset.json";
 
 const Header = () => {
   const whatsappNumber = "5549988044635";
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Gostaria de solicitar um orçamento de óculos da Ótica Visão.`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Vim pelo site e gostaria de solicitar um orçamento.`;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-card/95 backdrop-blur-md border-b border-border">
