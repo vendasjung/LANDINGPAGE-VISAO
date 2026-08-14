@@ -13,7 +13,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="font-serif font-semibold text-primary-foreground text-lg">
-                  Ótica Santa Vista
+                  Ótica Visão
                 </h3>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="text-sm">contato@oticasantavista.com.br</span>
+                <span className="text-sm">contato@oticavisao.com.br</span>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center">
           <p className="text-sm text-primary-foreground/50">
-            © {new Date().getFullYear()} Ótica Santa Vista. Todos os direitos reservados.
+            © {new Date().getFullYear()} Ótica Visão. Todos os direitos reservados.
           </p>
         </div>
       </div>

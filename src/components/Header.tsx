@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="font-serif font-semibold text-foreground text-lg leading-tight">
-                Ótica Santa Vista
+                Ótica Visão
               </h1>
               <p className="text-xs text-muted-foreground">Sua visão, nossa missão</p>
             </div>
