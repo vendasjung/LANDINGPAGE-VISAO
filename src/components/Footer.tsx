@@ -27,7 +27,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-accent flex-shrink-0" />
-                <span className="text-sm">Shoppin Gemini - Rua João de Castro, 68 - Centro - Lages/SC</span>
+                <span className="text-sm">Shopping Gemini - Rua João de Castro, 68 - Centro - Lages/SC</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0" />
