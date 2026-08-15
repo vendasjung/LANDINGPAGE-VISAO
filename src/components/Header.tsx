@@ -1,5 +1,5 @@
 import { Phone, MapPin } from "lucide-react";
-import logoVisao from "@/assets/logo-otica-visao.png.asset.json";
+import logoVisao from "@/assets/logotipo-otica-visao-alta";
 
 const Header = () => {
   const whatsappNumber = "5549988044635";
