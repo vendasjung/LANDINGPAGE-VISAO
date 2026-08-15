@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img
-              src={logoVisao.url}
+              src={logoVisao}
               alt="Ótica Visão - óculos de grau e sol"
               className="h-7 md:h-9 w-auto"
             />
