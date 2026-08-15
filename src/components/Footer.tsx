@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
-import logoVisaoBranco from "@/assets/logo-otica-visao-branco.png.asset.json";
+import logoVisaoBranco from "@/assets/logotipo-otica-visao-branco";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src={logoVisaoBranco.url}
+                src={logoVisaoBranco}
                 alt="Ótica Visão"
                 className="h-8 w-auto"
               />
