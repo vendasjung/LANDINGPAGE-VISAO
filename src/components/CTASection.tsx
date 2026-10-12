@@ -20,7 +20,7 @@ const CTASection = () => {
           </h2>
           <p className="text-xl text-primary-foreground/80 mb-8">
             Envie sua receita ou tire suas dúvidas pelo WhatsApp. 
-            Nossa equipe está pronta para te atender!
+            Nossa equipe responde no horário de atendimento da loja.
           </p>
 
           {/* CTA Button */}
@@ -31,7 +31,7 @@ const CTASection = () => {
             className="btn-whatsapp text-lg inline-flex mb-10"
           >
             <MessageCircle className="w-6 h-6" />
-            Solicitar Orçamento Agora
+            Enviar receita e pedir orçamento
           </a>
 
           {/* Contact Info */}

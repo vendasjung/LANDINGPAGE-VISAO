@@ -3,8 +3,8 @@ import { Check, MessageCircle } from "lucide-react";
 const benefits = [
   "Atendimento personalizado e acolhedor",
   "Orçamento sem compromisso pelo WhatsApp",
-  "Parcelas que cabem no seu bolso",
-  "Garantia em todos os produtos",
+  "Orientação sobre formas de pagamento",
+  "Orientação sobre garantia e cuidados",
   "Profissionais experientes e qualificados",
   "Ampla variedade de marcas e modelos",
 ];
@@ -14,7 +14,7 @@ const BenefitsSection = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá! Vim pelo site e gostaria de saber mais sobre os serviços da Ótica Visão.`;
 
   return (
-    <section className="section-padding bg-secondary">
+    <section id="beneficios" className="section-padding bg-secondary">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -53,32 +53,8 @@ const BenefitsSection = () => {
             </a>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-6">
-            <div className="card-service text-center">
-              <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
-                10+
-              </div>
-              <p className="text-muted-foreground">Anos de experiência</p>
-            </div>
-            <div className="card-service text-center">
-              <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
-                5000+
-              </div>
-              <p className="text-muted-foreground">Clientes satisfeitos</p>
-            </div>
-            <div className="card-service text-center">
-              <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
-                100%
-              </div>
-              <p className="text-muted-foreground">Garantia de qualidade</p>
-            </div>
-            <div className="card-service text-center">
-              <div className="font-serif text-4xl md:text-5xl font-bold text-primary mb-2">
-                24h
-              </div>
-              <p className="text-muted-foreground">Resposta garantida</p>
-            </div>
+          <div className="grid grid-cols-2 gap-4">
+            {[ ["Na loja", "Experimente as armações"], ["Visioffice", "Medidas para suas lentes"], ["WhatsApp", "Orçamento sem compromisso"], ["Lages", "Shopping Gemini · Centro"] ].map(([title, text]) => <div key={title} className="card-service text-center !p-5"><p className="text-xl sm:text-2xl font-bold text-primary mb-2">{title}</p><p className="text-sm text-muted-foreground">{text}</p></div>)}
           </div>
         </div>
       </div>

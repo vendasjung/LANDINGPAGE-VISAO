@@ -1,0 +1,12 @@
+import { whatsappLink } from "@/lib/contact";
+const questions = [
+  ["Posso pedir orçamento de óculos pelo WhatsApp?", "Sim. Envie uma foto da receita e conte o que está procurando. Nossa equipe orienta sobre lentes e armações e informa os próximos passos, sem compromisso."],
+  ["Preciso de receita para fazer meus óculos de grau?", "A receita informa a correção indicada para seus olhos. Se você ainda não tem uma receita ou está em dúvida sobre a atual, converse com nossa equipe. A medição com o Visioffice não substitui uma consulta oftalmológica."],
+  ["Vocês trabalham com lentes multifocais?", "Sim. Converse com nossa equipe sobre opções de lentes multifocais e sobre as medidas de montagem adequadas à sua receita e à armação escolhida."],
+  ["Posso parcelar meus óculos?", "Consulte pelo WhatsApp as formas de pagamento e as condições de parcelamento disponíveis para os produtos escolhidos."],
+  ["Qual é o prazo para meus óculos ficarem prontos?", "O prazo depende das lentes e da montagem. A equipe informa a previsão para o seu pedido antes de concluir a compra."],
+  ["Como funcionam a garantia e o acompanhamento?", "Consulte as condições de garantia do produto escolhido. Se precisar de ajuste na armação ou tiver dúvidas após a retirada, entre em contato com a loja para receber orientação."],
+  ["Onde fica a Ótica Visão em Lages?", "Estamos na Rua João de Castro, 68, Shopping Gemini, Sala 14, no Centro de Lages/SC. O endereço e os horários estão na seção Nossa Loja."],
+];
+const FAQSection = () => <section id="duvidas" className="section-padding bg-secondary"><div className="container mx-auto px-4 max-w-3xl"><h2 className="font-serif text-3xl md:text-4xl font-bold text-center mb-4">Dúvidas antes de escolher seus óculos?</h2><p className="text-muted-foreground text-center mb-8">Veja como funciona o atendimento na Ótica Visão.</p><div className="space-y-3">{questions.map(([question,answer]) => <details key={question} className="group rounded-xl border bg-background p-5"><summary className="cursor-pointer font-semibold leading-relaxed">{question}</summary><p className="mt-4 text-muted-foreground leading-relaxed">{answer}</p></details>)}</div><p className="mt-7 text-center"><a href={whatsappLink("Olá! Vim pelo site da Ótica Visão e gostaria de tirar uma dúvida sobre meus óculos.")} data-contact="faq" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold underline underline-offset-4">Tirar outra dúvida pelo WhatsApp</a></p></div></section>;
+export default FAQSection;

@@ -1,4 +1,4 @@
-import { Glasses, Sun, Sparkles, Watch, Gem } from "lucide-react";
+import { Glasses, Sun, Sparkles, Eye } from "lucide-react";
 
 const services = [
   {
@@ -14,16 +14,16 @@ const services = [
       "Proteção UV garantida com estilo. Modelos exclusivos para todos os gostos e ocasiões.",
   },
   {
-    icon: Watch,
-    title: "Relógios",
+    icon: Eye,
+    title: "Lentes Multifocais",
     description:
-      "Modelos clássicos e modernos para todos os estilos, com qualidade e sofisticação no seu pulso.",
+      "Orientação para escolher lentes para diferentes distâncias, conforme sua receita e suas necessidades.",
   },
   {
-    icon: Gem,
-    title: "Alianças em Ouro",
+    icon: Sparkles,
+    title: "Lentes Personalizadas",
     description:
-      "Alianças em ouro com design elegante e acabamento impecável para marcar momentos especiais.",
+      "Medidas com o Visioffice para auxiliar na escolha e na montagem das suas lentes.",
   },
 ];
 
@@ -37,7 +37,7 @@ const ServicesSection = () => {
             Nossos Serviços
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Tudo para sua <span className="text-gradient">visão perfeita</span>
+            Armações e lentes para <span className="text-gradient">sua rotina</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Oferecemos soluções completas em óptica com produtos de qualidade e 
@@ -65,6 +65,7 @@ const ServicesSection = () => {
             </div>
           ))}
         </div>
+        <p className="mt-8 text-center text-muted-foreground">Também trabalhamos com relógios e alianças em ouro. Consulte os modelos disponíveis na loja.</p>
       </div>
     </section>
   );

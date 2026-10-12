@@ -67,8 +67,8 @@ const MapSection = () => {
               <div>
                 <h3 className="font-semibold text-base mb-1">Telefones & WhatsApp</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  <strong>WhatsApp:</strong> (49) 98804-4635<br />
-                  <strong>Fixo:</strong> (49) 3225-1340
+                  <strong>WhatsApp:</strong> <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">(49) 98804-4635</a><br />
+                  <strong>Fixo:</strong> <a href="tel:+554932251340" className="underline underline-offset-4">(49) 3225-1340</a>
                 </p>
               </div>
             </div>

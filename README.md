@@ -1,24 +1,40 @@
-# Ótica Santa Vista WhatsApp
+# Ótica Visão — Lages
 
-preciso de uma landing page para minha ótica, Ótica Santa Vista, o objetivo é que a landing esteja focada em trazer os contatos de clientes interessados em orçamento de óculos para o whatsapp
+Landing page de atendimento e orçamento pelo WhatsApp: https://oticavisaolages.com.br/
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3222e70b-0642-4ce8-a83e-036e72c0ab87).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Desenvolvimento
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm ci
 npm run dev
 ```
+
+## Publicação
+
+```sh
+npm run build
+```
+
+Publique `dist/`. O build gera HTML pré-renderizado para a página inicial e o React mantém os menus e demais interações por hidratação. Use o script completo de build; executar apenas `vite build` não gera o HTML pré-renderizado.
+
+Configure a hospedagem para servir os arquivos existentes e retornar HTTP 404 para URLs desconhecidas. Uma regra que devolve a home com HTTP 200 para qualquer URL pode criar soft 404s. Esta landing page tem somente uma URL indexável.
+
+## SEO
+
+Título, descrição, canonical, Open Graph e dados estruturados de empresa local estão em `index.html`. Sitemap e robots estão em `public/`. Os horários e dados de contato refletem o conteúdo da loja publicado; atualize-os juntos se mudarem.
+
+Cadastre o domínio no Google Search Console, valide sua propriedade pelo provedor DNS e envie `https://oticavisaolages.com.br/sitemap.xml`. A validação do domínio e o Perfil da Empresa dependem de acesso às respectivas contas.
+
+## Contatos e medição
+
+Os cliques no WhatsApp, telefone e Google Maps disparam `otica:contact`. Se houver `gtag`, enviam `contact_click`; caso contrário, uma instalação existente de `dataLayer` recebe esse evento. Os parâmetros são apenas `contact_channel` e `contact_position`; nenhum conteúdo de receita ou dados de saúde é enviado.
+
+Ainda é necessário configurar uma propriedade Analytics/Tag Manager da Ótica Visão para coletar dados. Clique é intenção de contato; conversas, orçamentos e vendas devem ser confirmados no atendimento/CRM. Não marcar um clique como venda.
+
+## Imagens reais
+
+Fotos públicas do perfil `@oticavisaolages`, reutilizadas com autorização do proprietário:
+- Fachada: https://www.instagram.com/noticianoato/reel/DeKmnJxBFvz/
+- Equipe: https://www.instagram.com/oticavisaolages/reel/Dd7R0N0Oqcp/
+
+As imagens são cópias locais otimizadas, sem depender dos links temporários do Instagram. A imagem do Visioffice 2 é ilustrativa, gerada por IA, e tem legenda própria. Não há depoimentos, notas ou contagem de clientes inventados.

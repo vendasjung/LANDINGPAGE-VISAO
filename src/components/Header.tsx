@@ -54,7 +54,7 @@ const Header = () => {
             rel="noopener noreferrer"
             className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-5 text-sm font-semibold text-primary-foreground shadow transition-colors hover:bg-primary/90"
           >
-            Fazer Orçamento
+            Pedir Orçamento
           </a>
         </div>
 

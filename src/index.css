@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 
 @layer base {
   :root {
@@ -194,3 +194,11 @@
     }
   }
 }
+
+html { scroll-behavior: smooth; }
+section[id], main[id] { scroll-margin-top: 6rem; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid hsl(var(--primary)); outline-offset: 4px; }
+.skip-link { position: fixed; top: -100px; left: 1rem; z-index: 100; background: white; color: #153d42; padding: 1rem; border-radius: .5rem; }
+.skip-link:focus { top: 1rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+@media (max-width: 639px) { .floating-whatsapp { width: 3.25rem; height: 3.25rem; right: 1rem; bottom: 1rem; } }

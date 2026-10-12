@@ -25,7 +25,7 @@ const VisiofficeSection = () => {
             </h2>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-              Na <strong>Ótica Visão</strong>, aliamos a tradição da saúde visual à inovação tecnológica. O sistema <strong>Visioffice®</strong> realiza um escaneamento dinâmico em 3D da sua postura, olhar e encaixe da armação, garantindo lentes 100% personalizadas para os seus olhos.
+              Na <strong>Ótica Visão</strong>, aliamos a tradição da saúde visual à inovação tecnológica. O sistema <strong>Visioffice®</strong> auxilia na tomada de medidas considerando seus olhos, a posição da armação e sua postura. Essas informações apoiam a personalização e a montagem das lentes, conforme o produto escolhido.
             </p>
 
             <div className="space-y-4 pt-2">
@@ -36,7 +36,7 @@ const VisiofficeSection = () => {
                 <div>
                   <h3 className="font-semibold text-white text-base">Precisão Milimétrica 3D</h3>
                   <p className="text-slate-400 text-sm">
-                    Mapeia o centro de rotação exato do olho (EYECODE™) para um ajuste perfeito em lentes multifocais e monofocais.
+                    Registra parâmetros individuais que auxiliam no posicionamento das lentes na armação.
                   </p>
                 </div>
               </div>
@@ -46,9 +46,9 @@ const VisiofficeSection = () => {
                   <Eye className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white text-base">Adaptação Rápida e Confortável</h3>
+                  <h3 className="font-semibold text-white text-base">Orientação para sua adaptação</h3>
                   <p className="text-slate-400 text-sm">
-                    Elimina distorções nas bordas das lentes e proporciona um campo de visão amplo e natural desde o primeiro dia.
+                    A escolha das lentes e as medidas de montagem fazem parte do cuidado com seu conforto visual. A adaptação varia conforme cada pessoa e lente.
                   </p>
                 </div>
               </div>
@@ -58,9 +58,9 @@ const VisiofficeSection = () => {
                   <ShieldCheck className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white text-base">Personalização Exclusiva</h3>
+                  <h3 className="font-semibold text-white text-base">Medidas para sua armação</h3>
                   <p className="text-slate-400 text-sm">
-                    Lentes sob medida considerando o ângulo pantoscópico, distância naso-pupilar e curvatura da sua armação favorita.
+                    Parâmetros como distância naso-pupilar e posição da armação ajudam a orientar a montagem das lentes escolhidas.
                   </p>
                 </div>
               </div>
@@ -100,18 +100,18 @@ const VisiofficeSection = () => {
 
               <div className="mt-6 grid grid-cols-2 gap-4">
                 <div className="rounded-lg bg-slate-950/80 p-4 border border-slate-800">
-                  <span className="text-2xl font-bold text-primary">100%</span>
-                  <p className="text-xs text-slate-400 mt-1">Lentes Personalizadas</p>
+                  <span className="text-2xl font-bold text-primary">3D</span>
+                  <p className="text-xs text-slate-400 mt-1">Medidas individuais</p>
                 </div>
                 <div className="rounded-lg bg-slate-950/80 p-4 border border-slate-800">
-                  <span className="text-2xl font-bold text-primary">0.1mm</span>
-                  <p className="text-xs text-slate-400 mt-1">Precisão do Centro Focal</p>
+                  <span className="text-2xl font-bold text-primary">Na loja</span>
+                  <p className="text-xs text-slate-400 mt-1">Orientação presencial</p>
                 </div>
               </div>
 
               <div className="mt-4 flex items-center gap-2 text-xs text-slate-400 justify-center">
                 <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-                <span>Exclusivo na nossa loja em Lages / SC</span>
+                <span>Disponível na Ótica Visão em Lages / SC</span>
               </div>
             </div>
           </div>
