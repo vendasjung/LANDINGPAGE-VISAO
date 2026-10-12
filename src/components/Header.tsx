@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, MapPin } from "lucide-react";
+import logoVisao from "@/assets/logotipo-otica-visao-alta.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
         {/* Logotipo da Ótica Visão */}
         <a href="#" className="flex items-center gap-2">
           <img
-            src="/assets/logotipo-otica-visao-alta.png"
+            src={logoVisao}
             alt="Ótica Visão"
             className="h-10 sm:h-12 w-auto object-contain"
           />

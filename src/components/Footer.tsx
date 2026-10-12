@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
-import logoVisaoBranco from "@/assets/logotipo-otica-visao-branco";
+import logoVisaoBranco from "@/assets/logotipo-otica-visao-branco.png";
 
 const Footer = () => {
   return (
