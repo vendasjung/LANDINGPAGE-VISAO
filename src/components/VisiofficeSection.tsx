@@ -1,4 +1,5 @@
 import { Eye, Sparkles, Compass, ShieldCheck, CheckCircle2 } from "lucide-react";
+import visiofficeImage from "@/assets/visioffice-2.webp";
 
 const VisiofficeSection = () => {
   const whatsappUrl = "https://wa.me/5549988044635?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20medida%20personalizada%20com%20o%20Visioffice.";
@@ -20,7 +21,7 @@ const VisiofficeSection = () => {
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
-              Medidas Personalizadas com a Coluna <span className="text-primary">Visioffice®</span>
+              Medidas Personalizadas com o equipamento <span className="text-primary">Visioffice</span>
             </h2>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
@@ -80,17 +81,22 @@ const VisiofficeSection = () => {
           {}
           <div className="relative">
             <div className="relative mx-auto rounded-2xl bg-slate-900/90 p-6 sm:p-8 border border-slate-800 backdrop-blur shadow-2xl">
-              <div className="aspect-video w-full rounded-xl bg-slate-950 overflow-hidden relative flex items-center justify-center border border-slate-800/80">
-                <div className="text-center p-6 space-y-3">
-                  <div className="mx-auto w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary mb-2 border border-primary/40">
-                    <Eye className="h-8 w-8 animate-pulse text-primary" />
-                  </div>
-                  <h4 className="text-xl font-bold text-white">Escaneamento Digital Visioffice®</h4>
-                  <p className="text-xs text-slate-400 max-w-xs mx-auto">
-                    Tomada de medidas sem contato físico, com câmeras de alta fidelidade e software óptico avançado.
-                  </p>
+              <figure>
+                <div className="aspect-square w-full rounded-xl bg-slate-950 overflow-hidden border border-slate-800/80">
+                  <img
+                    src={visiofficeImage}
+                    alt="Representação ilustrativa do equipamento Visioffice 2 para medidas ópticas personalizadas"
+                    className="h-full w-full object-contain"
+                    width={1024}
+                    height={1024}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
-              </div>
+                <figcaption className="mt-3 text-center text-xs text-slate-400">
+                  Visioffice 2 · Imagem ilustrativa
+                </figcaption>
+              </figure>
 
               <div className="mt-6 grid grid-cols-2 gap-4">
                 <div className="rounded-lg bg-slate-950/80 p-4 border border-slate-800">
