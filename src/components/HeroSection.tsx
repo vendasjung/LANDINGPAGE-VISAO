@@ -1,12 +1,12 @@
 import { MessageCircle, MapPin, CheckCircle2 } from "lucide-react";
-import heroImage from "@/assets/hero-glasses.jpg";
+import heroImage from "@/assets/hero-fachada-otica-visao.webp";
 import { whatsappLink } from "@/lib/contact";
 
 const HeroSection = () => (
   <section id="inicio" className="relative flex items-center py-16 sm:py-24 lg:py-28">
     <div className="absolute inset-0 z-0">
-      <img src={heroImage} alt="" {...{ fetchpriority: "high" }} loading="eager" className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/85 to-foreground/50" />
+      <img src={heroImage} alt="Fachada da Ótica Visão no Shopping Gemini, no Centro de Lages" {...{ fetchpriority: "high" }} loading="eager" decoding="async" width={1672} height={941} className="w-full h-full object-cover object-[62%_center] sm:object-center" />
+      <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/85 to-foreground/40" />
     </div>
     <div className="container mx-auto px-4 relative z-10">
       <div className="max-w-2xl">
